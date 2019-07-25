@@ -19,19 +19,17 @@
     border: 2px solid #FFC300;
     width:200px;
     height:200px;
-    
-    
-    
 }
 
 label{
     font-family: 'Permanent Marker', cursive;
     background:#FFC300;
     color:white; 
-    
-    
-    
-    
-    
 }
+ h2{
+     font-family:'VT323', monospace;
+     font-size: 40px;
+     
+ }
 
+ 
