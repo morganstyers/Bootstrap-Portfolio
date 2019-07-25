@@ -35,9 +35,9 @@ label{
  
  @media screen and (max-width:640px){
     .nav-item{
-width: 100%;
-margin-left: 250%;
-text-align: center;
-         
-     }
+        width: 100%;
+        margin-left: 250%;
+        text-align: center;
+         }
+    }
   
