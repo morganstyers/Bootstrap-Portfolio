@@ -44,13 +44,13 @@
       <div class="col-md-8">
         <h2>Contact</h2>
       </div>
-
+      
       <div class="col-md-4">
         <a id="i" class="icon ion-logo-github" href="https://github.com/morganstyers"></a>
         <a id="i" class="icon ion-logo-linkedin" href="https://www.linkedin.com/in/morgan-styers-98892b193/"></a>
         <a id="i" class="icon ion-ios-mail-open" href="mailto:morganstyers@gmail.com"></a>
         <a id="i" class="icon ion-ios-text" href="sms:704-999-0358"></a>
-        <a id="i" class="icon ion-md-phone-portrait" href="tel:704-999-0358"></a>
+        <a id="i" class="icon ion-ios-call" href="tel:704-999-0358"></a>
         <a id="i" class="icon ion-md-paper" href="https://docs.google.com/document/d/1Glb73cpoXt5RTJl6Gs_iS3-U9sM1roC03RyRnKXI4ho/edit?usp=sharing"></a>
       </div>
     </div>
@@ -58,14 +58,16 @@
     <br>
 
     <div class="row">
+      
       <div class="col-md-12">
+          <div class="container">
         <div class="card">
           <div class="card-body">
 
-            <form>
+            <form method="POST" action="mailto:morganstyers@gmail">
               <div class="form-group">
                 <label for="exampleFormControlInput1">Name</label>
-                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
               </div>
               <div class="form-group">
                 <label for="exampleFormControlInput1">Email</label>
@@ -73,16 +75,16 @@
               </div>
               <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea type="text" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="button" class="btn btn-outline-dark">Submit</button>
-
+              <input type="submit" class="btn btn-outline-dark"></input>
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </body>
 
 </html>
