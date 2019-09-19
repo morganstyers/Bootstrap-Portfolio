@@ -1,40 +1,35 @@
-.h1{
+.h1, .modal-content{
     font-family:'Permanent Marker', cursive;
-    color: #FFC300 !important;
     font-size: 50px;
 }
-.card{
+.card,img,label,.modal-content{
     border: 2px solid #FFC300;
 }
+.h1{
+    color: #FFC300 !important;
 
-.aboutphoto{
-    width:200px;
-    height:200px;
-    margin-right: 20px;
-    float:left;
-    border:2px solid #FFC300;
 }
-
-img{
-
-    border: 2px solid #FFC300;
-   
-}
-label{
-    font-family: 'Permanent Marker', cursive;
-    background:#FFC300;
-    color:white; 
-}
- h2{
+h2,#res{
      font-family:'VT323', monospace;
      font-size: 40px;
-     
  }
+
 #i{
     font-size: 30px;
-    padding:10px;
+    padding:20px;
     color: black;
 }
- 
+#resumes{
+    margin: 5px;
+
+}
+#about{
+    padding: 10px;
+}
+
+#contact {
+    margin-left: 10px; 
+    text-align: center
+}
 
   
